@@ -1,0 +1,51 @@
+.crypto-currencies {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 50px;
+	align-items: center;
+	gap: 20px;
+}
+.crypto-info {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	border: 1px solid #8C8C8C;
+	border-radius: 20px;
+	gap: 50px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+}
+.icon-title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 0;
+	img {
+		width: 85px;
+	}
+	h5 {
+		font-weight: 500;
+		color: $color_1;
+		font-size: 30px;
+	}
+	p {
+		background: $color_1;
+		color: $color_3;
+		font-weight: 500;
+		font-size: 22px;
+		padding: 5px 10px;
+		border-radius: 5px;
+	}
+}
+.ammount {
+	color: $color_1;
+	line-height: 30px;
+	padding-top: 10px;
+	p {
+		font-weight: 300;
+		color: $color_4;
+	}
+}

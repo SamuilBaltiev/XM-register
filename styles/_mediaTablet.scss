@@ -1,0 +1,154 @@
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+	nav {
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-links {
+		display: none;
+	}
+	header {
+		height: fit-content;
+		margin: 100px 0;
+		p {
+			width: 95%;
+		}
+	}
+	.icon-title {
+		img {
+			width: 50px;
+		}
+		h5 {
+			font-size: 20px;
+		}
+		p {
+			font-size: 12px;
+		}
+	}
+	#trade-dashboard {
+		padding: 70px;
+		text-align: center;
+		h6 {
+			width: fit-content;
+		}
+	}
+	.dashboard-info {
+		flex-direction: column;
+	}
+	.left-section {
+		position: relative;
+		div {
+			width: 60%;
+		}
+		img {
+			width: 100px;
+			position: absolute;
+			margin-top: 0;
+			top: 60px;
+			right: 0;
+		}
+	}
+	.right-section {
+		display: flex;
+		flex-direction: column;
+	}
+	.right-section-info {
+		padding: 25px;
+		img {
+			width: 70px;
+			transform: translateY(-40px);
+		}
+	}
+	#register {
+		padding: 25px;
+	}
+	.register-input {
+		width: 80%;
+		flex-direction: column;
+	}
+	.password-input {
+		span {
+			font-size: 12px;
+		}
+	}
+	#register_popup {
+		width: fit-content;
+		line-height: normal;
+	}
+	#company-info {
+		flex-direction: column;
+		padding: 0;
+		align-items: center;
+	}
+	.card {
+		img {
+			width: 100px;
+		}
+	}
+	.company-left-section {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 30px;
+		margin-top: 20px;
+		br {
+			display: none;
+		}
+		h3 {
+			font-size: 30px;
+		}
+	}
+	.company-right-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		width: 80%;
+	}
+	.additional-info {
+		align-items: center;
+		text-align: center;
+		width: fit-content;
+	}
+	.upper-section {
+		display: none;
+	}
+	.lower-section {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		gap: 20px;
+		flex-direction: inherit;
+	}
+	.policy {
+		h3 {
+			font-size: 13px;
+		}
+	}
+	
+}
+@media screen and (min-width:670px) and (max-width:1500px) {
+	.crypto-currencies {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 20px;
+		justify-items: center;
+		align-items: center;
+		text-align: center;
+	}
+	.crypto-info {
+		height: fit-content;
+		width: fit-content;
+	}
+	.image-row img {
+		width: 20%;
+		margin: 2.5%;
+	}
+}

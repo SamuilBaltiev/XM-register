@@ -1,0 +1,49 @@
+header {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	margin: 128px auto 163px auto;
+	h5 {
+		text-transform: uppercase;
+		font-size: 20px;
+		color: $color_1;
+		font-weight: 300;
+	}
+	h1 {
+		font-size: 45px;
+		font-weight: 300;
+		color: $color_1;
+	}
+	p {
+		font-size: 21px;
+		font-weight: 400;
+		color: $color_1;
+		width: 35%;
+		span {
+			font-weight: 700;
+		}
+	}
+	button {
+		width: 345px;
+		height: 40px;
+		background-color: $background-color_2;
+		color: $color_1;
+		text-transform: uppercase;
+		font-size: 29px;
+		font-family: $font-family_2;
+		font-weight: 500;
+		cursor: pointer;
+	}
+	h6 {
+		color: $color_1;
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 30px;
+		span {
+			color: $color_2;
+		}
+	}
+}

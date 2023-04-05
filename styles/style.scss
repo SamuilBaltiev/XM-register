@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./navigation";
+@import  "./header";
+@import "./crypto";
+@import "./tradeDashboard";
+@import "./register";
+@import "./eventGallery";
+@import "./companyInfo";
+@import "./footer";
+@import "./mediaPhone";
+@import "./mediaTablet";
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+
+main {
+	background: #201D27;
+    mix-blend-mode: multiply;
+    background-image: url(../images/general-0-swaps-desktop.png) ,url(../images/Intersect.png),url(../images/Intersect-1.png), url(../images/Gold-Number-021.png),url(../images/Vector4.png);
+  background-position:top , top right , top left ,left bottom, right ;
+  background-repeat: no-repeat, no-repeat,no-repeat,no-repeat,no-repeat;
+  background-size: contain
+}
